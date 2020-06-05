@@ -1,0 +1,252 @@
+/* main-accent #2196F3; 
+main-text-color-gray  #757575; 
+main-black #212121;
+footer adress rgba (0, 0, 0, 0.6) */
+
+:root {
+  --main-accent: #2196f3;
+  --main-text-color: #757575;
+  --main-black: #212121;
+  --main-white: #ffffff;
+}
+body {
+  color: var(--main-text-color);
+
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.03em;
+}
+
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+address {
+  font-style: normal;
+}
+/*  ===
+    ===
+    INDEX
+    ===
+    === */
+.logo-header {
+  color: var(--main-black);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.logo-header span {
+  color: var(--main-accent);
+}
+
+.navigation {
+  color: var(--main-black);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.navigation-current {
+  color: var(--main-accent);
+}
+
+.navigation:hover,
+.navigation:focus {
+  color: var(--main-accent);
+}
+
+.contacts-header {
+  color: var(--main-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.contacts-header:hover,
+.contacts-header:focus {
+  color: var(--main-accent);
+}
+
+h1 {
+  color: var(--main-white);
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.button-primary {
+  background-color: var(--main-accent);
+  color: var(--main-white);
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+.features-heading {
+  color: var(--main-black);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.section-title {
+  color: var(--main-black);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
+.features-description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.services {
+  color: var(--main-white);
+  background-color: rgba(47, 48, 58, 0.8);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.team-name {
+  color: var(--main-black);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+.proffesion {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19px;
+  text-align: center;
+}
+.logo-footer {
+  color: var(--main-white);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.18;
+}
+.logo-footer span {
+  color: var(--main-accent);
+}
+
+.address {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: #ffffff;
+}
+
+.contacts-footer {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.contacts-footer:hover,
+.contacts-footer:focus {
+  color: var(--main-accent);
+}
+
+.social-network-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+
+  color: var(--main-white);
+}
+
+.copyright {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+/*  ===
+    ===
+    PORTFOLIO
+    ===
+    === */
+
+.button-secondary {
+  color: var(--main-black);
+  background-color: #f5f4fa;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+}
+
+.button-secondary:hover,
+.button-secondary:focus {
+  background-color: var(--main-accent);
+  color: var(--main-white);
+}
+
+.project-title {
+  color: var(--main-black);
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.projects-style {
+  color: var(--main-text-color);
+}
+
+.projects-style h2 {
+  color: var(--main-black);
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.projects-style p {
+  color: var(--main-white);
+
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.56;
+}
+
+.projects-style .project-type {
+  color: var(--main-text-color);
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+}
